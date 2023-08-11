@@ -43,7 +43,7 @@ steps:
               - columnReferences:
                   - columnCounter: 550b7fc9-69ba-458e-a7e0-cff854532ca8
                     stepCounter: 990a71c2-3ca4-4fa7-8d93-b95311265ef4
-                transform: ""
+                transform: upper("CUSTOMER"."C_NAME")
           - columnReference:
               columnCounter: 6a722628-12e2-401d-8227-b85196873be6
               stepCounter: 9c31785d-e1b6-4d57-9748-328a2c1b6f66
