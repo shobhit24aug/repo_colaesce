@@ -1,0 +1,653 @@
+steps:
+  DIM_WORLDDATA2023-80b2b61d-b865-4196-bcc2-09d9a59361fe:
+    operation:
+      config:
+        postSQL: ""
+        preSQL: ""
+        testsEnabled: true
+      database: ""
+      deployEnabled: true
+      description: This is Dimension Table
+      isMultisource: false
+      locationName: TARGET
+      materializationType: table
+      metadata:
+        appliedNodeTests: []
+        columns:
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 339d7b57-7360-4cb8-95e4-7d8c7d25d098
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            config: {}
+            dataType: NUMBER
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSurrogateKey: true
+            name: DIM_WORLDDATA2023_KEY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ""
+          - columnReference:
+              columnCounter: 754123c8-0d30-4883-9043-77343847494c
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isBusinessKey: true
+            isChangeTracking: true
+            name: COUNTRY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: aea72a62-5186-4c48-b845-d128814cf49a
+                    stepCounter: 6e7af09d-c133-4a71-bf7a-9ecbcac2bc39
+                transform: ""
+          - columnReference:
+              columnCounter: b979a71a-233f-47b5-af3c-598986e6281c
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            isChangeTracking: true
+            name: DENSITY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 3e5743af-e24a-4a86-ba6d-2e9fb51c19b0
+                    stepCounter: 6e7af09d-c133-4a71-bf7a-9ecbcac2bc39
+                transform: ""
+          - columnReference:
+              columnCounter: 17adbca2-46d6-4d8f-918c-7899e4d654c9
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ABBREVIATION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: f841fbfa-8570-4278-93ca-15c055ddfe9f
+                    stepCounter: 6e7af09d-c133-4a71-bf7a-9ecbcac2bc39
+                transform: ""
+          - columnReference:
+              columnCounter: 5331006b-77b6-476e-bdb0-13a9a251a5a3
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            dataType: FLOAT
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: AGRICULTURALLAND
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: a6535ef1-1ceb-4d48-9232-d9652e75f3aa
+                    stepCounter: 6e7af09d-c133-4a71-bf7a-9ecbcac2bc39
+                transform: ""
+          - columnReference:
+              columnCounter: 49372da6-c0a8-4140-a831-f07595c6afac
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: LANDAREA
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 334ece6c-1668-4036-956f-a5751db7dd04
+                    stepCounter: 6e7af09d-c133-4a71-bf7a-9ecbcac2bc39
+                transform: ""
+          - columnReference:
+              columnCounter: 51ffc1d6-aaa3-4f11-9c0a-8c6189613c37
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: ARMEDFORCESSIZE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: f42f27d7-679a-4bcd-9a9d-d6bbd0563968
+                    stepCounter: 6e7af09d-c133-4a71-bf7a-9ecbcac2bc39
+                transform: ""
+          - columnReference:
+              columnCounter: 94fa485d-dd6b-43e2-a5ce-ce508c1abbf3
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            dataType: FLOAT
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: BIRTHRATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 9c131491-3670-4db4-b4f1-0ab76efb9533
+                    stepCounter: 6e7af09d-c133-4a71-bf7a-9ecbcac2bc39
+                transform: ""
+          - columnReference:
+              columnCounter: 43252965-3bfa-4a4b-8e04-83c356871e81
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CALLINGCODE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 69a566fa-6426-45e2-9878-decb7ce71392
+                    stepCounter: 6e7af09d-c133-4a71-bf7a-9ecbcac2bc39
+                transform: ""
+          - columnReference:
+              columnCounter: 15ded944-7577-4136-a433-67541ae6f347
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CAPITAL
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: ef105488-8798-4053-a50f-35fcde1b7f9d
+                    stepCounter: 6e7af09d-c133-4a71-bf7a-9ecbcac2bc39
+                transform: ""
+          - columnReference:
+              columnCounter: 2285b6fd-db31-4e82-a8f8-5c93e1c95a47
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CO2EMISSIONS
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 20f9ab89-881b-4245-b82e-8d9cabad0b54
+                    stepCounter: 6e7af09d-c133-4a71-bf7a-9ecbcac2bc39
+                transform: ""
+          - columnReference:
+              columnCounter: 35187c28-69a1-4837-b3ca-8432680ddc1b
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            dataType: FLOAT
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CPI
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 460853ac-39d1-4f49-ba58-e908bf119fc5
+                    stepCounter: 6e7af09d-c133-4a71-bf7a-9ecbcac2bc39
+                transform: ""
+          - columnReference:
+              columnCounter: 12e169bc-1bd0-4a00-8477-25026c7e3c06
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            dataType: FLOAT
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CPICHANGE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 26a762fc-2c62-42b2-8871-167b6bcdd1db
+                    stepCounter: 6e7af09d-c133-4a71-bf7a-9ecbcac2bc39
+                transform: ""
+          - columnReference:
+              columnCounter: ce5d4453-e805-4bc8-a81d-24eececb315f
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: CURRENCYCODE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 639c8faf-46bd-4d9e-aaac-04c97e3bcbc2
+                    stepCounter: 6e7af09d-c133-4a71-bf7a-9ecbcac2bc39
+                transform: ""
+          - columnReference:
+              columnCounter: 287e9cbe-06cd-4ed5-ba7b-be382dd022a4
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            dataType: FLOAT
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FERTILITYRATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: addc5257-0c1d-4288-8c6d-4fd20b46b8e9
+                    stepCounter: 6e7af09d-c133-4a71-bf7a-9ecbcac2bc39
+                transform: ""
+          - columnReference:
+              columnCounter: 477f0500-5d17-42d7-89bd-06d293d63ca7
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            dataType: FLOAT
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: FORESTEDAREA
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 98aed3c7-f59a-40e1-92a8-5d378e2adc9e
+                    stepCounter: 6e7af09d-c133-4a71-bf7a-9ecbcac2bc39
+                transform: ""
+          - columnReference:
+              columnCounter: 3fefed74-ee50-4d07-9614-8771b012695f
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            dataType: FLOAT
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: GASOLINEPRICE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 6340bb94-16b7-44d0-b231-3f5bccb906af
+                    stepCounter: 6e7af09d-c133-4a71-bf7a-9ecbcac2bc39
+                transform: ""
+          - columnReference:
+              columnCounter: 0f50eb20-ef8f-4486-9310-82a601a39f91
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: GDP
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 9e69ae82-a268-4ea3-aac1-a0aebab42b2b
+                    stepCounter: 6e7af09d-c133-4a71-bf7a-9ecbcac2bc39
+                transform: ""
+          - columnReference:
+              columnCounter: a076b6c4-4ecf-4b07-891b-e9d5f142eebd
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            dataType: FLOAT
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: GROSSPRIMARYEDUCATIONENROLLMENT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 0624719f-095a-47d4-a41f-2fdebad603f8
+                    stepCounter: 6e7af09d-c133-4a71-bf7a-9ecbcac2bc39
+                transform: ""
+          - columnReference:
+              columnCounter: ad99815b-7721-47e9-9fee-76b08d986c62
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            dataType: FLOAT
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: GROSSTERTIARYEDUCATIONENROLLMENT
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 87e16f82-544c-4247-9a1a-53f490b3c270
+                    stepCounter: 6e7af09d-c133-4a71-bf7a-9ecbcac2bc39
+                transform: ""
+          - columnReference:
+              columnCounter: d6dd68ac-ecf9-421c-be0f-d94c902d6798
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            dataType: FLOAT
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: INFANTMORTALITY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 62510b3f-39b5-4ddc-a460-a6b024717c5f
+                    stepCounter: 6e7af09d-c133-4a71-bf7a-9ecbcac2bc39
+                transform: ""
+          - columnReference:
+              columnCounter: 56abdd97-fdaa-4f64-82fd-bc37e09e6994
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: LARGESTCITY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 9a535e06-d4e9-4e9f-828a-ec56163ea6c1
+                    stepCounter: 6e7af09d-c133-4a71-bf7a-9ecbcac2bc39
+                transform: ""
+          - columnReference:
+              columnCounter: 8cd5bf10-7527-4d9d-943e-bc2600b2f385
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            dataType: FLOAT
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: LIFEEXPECTANCY
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 6d603d2b-c10c-40d1-a1eb-dfa60ae9b3aa
+                    stepCounter: 6e7af09d-c133-4a71-bf7a-9ecbcac2bc39
+                transform: ""
+          - columnReference:
+              columnCounter: e7860dab-6d4f-48d4-bdfc-74b6e879802e
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: MATERNALMORTALITYRATIO
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 64d1d991-4eb6-40bf-b69b-edcfad696527
+                    stepCounter: 6e7af09d-c133-4a71-bf7a-9ecbcac2bc39
+                transform: ""
+          - columnReference:
+              columnCounter: 4ba625fa-e351-4427-b2fd-2b633ea698df
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            dataType: FLOAT
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: MINIMUMWAGE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 92217426-71ce-4e3a-9351-3d508f0d1860
+                    stepCounter: 6e7af09d-c133-4a71-bf7a-9ecbcac2bc39
+                transform: ""
+          - columnReference:
+              columnCounter: 9c66cacc-669b-4932-8e6d-7e0cdcab8ad8
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            dataType: VARCHAR(16777216)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: OFFICIALLANGUAGE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 491d923d-2d86-4c4b-8132-a2c630b0c9ad
+                    stepCounter: 6e7af09d-c133-4a71-bf7a-9ecbcac2bc39
+                transform: ""
+          - columnReference:
+              columnCounter: d4bb893a-c61f-4526-b150-24fb52e07447
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            dataType: FLOAT
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: OUTOFPOCKETHEALTHEXPENDITURE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 1ed04297-8dfe-4c53-bea2-fe56d67989fc
+                    stepCounter: 6e7af09d-c133-4a71-bf7a-9ecbcac2bc39
+                transform: ""
+          - columnReference:
+              columnCounter: 5a5ff343-12b3-4335-9ebe-1ea9a6239d98
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            dataType: FLOAT
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: PHYSICIANSPERTHOUSAND
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 909910f8-f847-448a-8431-b9a45233f22f
+                    stepCounter: 6e7af09d-c133-4a71-bf7a-9ecbcac2bc39
+                transform: ""
+          - columnReference:
+              columnCounter: a19ba71e-b2ed-4f6b-9438-a9826242ad1b
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: POPULATION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 6a4c483e-a597-46ac-8807-3754abfd2167
+                    stepCounter: 6e7af09d-c133-4a71-bf7a-9ecbcac2bc39
+                transform: ""
+          - columnReference:
+              columnCounter: 8f9c5495-a428-40c3-8f5d-32bb82db3659
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            dataType: FLOAT
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: POPULATIONLABORFORCEPARTICIPATION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 1164bae4-b368-47aa-99e9-ff714b63cb2a
+                    stepCounter: 6e7af09d-c133-4a71-bf7a-9ecbcac2bc39
+                transform: ""
+          - columnReference:
+              columnCounter: ddc8f73f-6b5b-44eb-9b36-9e101e036bed
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            dataType: FLOAT
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TAXREVENUE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: d520b322-e089-4cae-8c89-110f1bd327b5
+                    stepCounter: 6e7af09d-c133-4a71-bf7a-9ecbcac2bc39
+                transform: ""
+          - columnReference:
+              columnCounter: 8087a445-602f-48a2-b0a2-5dee82095093
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            dataType: FLOAT
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: TOTALTAXRATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: ec948637-2902-4756-819b-c64a180e8757
+                    stepCounter: 6e7af09d-c133-4a71-bf7a-9ecbcac2bc39
+                transform: ""
+          - columnReference:
+              columnCounter: bf5cd92d-7a65-451d-b0e2-8e94c9ca0d05
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            dataType: FLOAT
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: UNEMPLOYMENTRATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 20903646-c66d-489f-b92f-cf4ca57999e1
+                    stepCounter: 6e7af09d-c133-4a71-bf7a-9ecbcac2bc39
+                transform: ""
+          - columnReference:
+              columnCounter: bc60690c-0a29-465e-85b9-176f5a59ff5c
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            dataType: NUMBER(38,0)
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: URBANPOPULATION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 539a873d-bc37-4cad-9020-e512e75a6266
+                    stepCounter: 6e7af09d-c133-4a71-bf7a-9ecbcac2bc39
+                transform: ""
+          - columnReference:
+              columnCounter: 4e5335b6-ca4a-4deb-b5ee-db6da87d1544
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            dataType: FLOAT
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: LATITUDE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 88065ea5-8733-412d-a3f1-c822683356ba
+                    stepCounter: 6e7af09d-c133-4a71-bf7a-9ecbcac2bc39
+                transform: ""
+          - columnReference:
+              columnCounter: 9d0bc233-3240-4bd1-9378-eb65bfae8c5e
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            dataType: FLOAT
+            description: ""
+            hashColumns: []
+            hashDetails: null
+            name: LONGITUDE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences:
+                  - columnCounter: 6bb17474-3a2b-4a86-a640-d51c01d19f7f
+                    stepCounter: 6e7af09d-c133-4a71-bf7a-9ecbcac2bc39
+                transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 68b65388-a8d1-45c1-bafb-922592a5a467
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            config: {}
+            dataType: NUMBER
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSystemVersion: true
+            name: SYSTEM_VERSION
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: feafbf41-a735-47c1-a4d7-e2fae534cd2a
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            config: {}
+            dataType: VARCHAR
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSystemCurrentFlag: true
+            name: SYSTEM_CURRENT_FLAG
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: ""
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: bf089786-fa1c-4b0b-a111-ec18f0fa416d
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            config: {}
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSystemStartDate: true
+            name: SYSTEM_START_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 785a9fb0-840b-42d3-8cd2-5588f985bb14
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            config: {}
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSystemEndDate: true
+            name: SYSTEM_END_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST('2999-12-31 00:00:00' AS TIMESTAMP)
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 77da10a5-9fef-4668-b240-7ff4b4d01452
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            config: {}
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSystemCreateDate: true
+            name: SYSTEM_CREATE_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+          - acceptedValues:
+              strictMatch: true
+              values: []
+            appliedColumnTests: {}
+            columnReference:
+              columnCounter: 56ec215d-8244-4854-b629-2f13c56c1d9b
+              stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe
+            config: {}
+            dataType: TIMESTAMP
+            defaultValue: ""
+            description: ""
+            hashColumns: []
+            isSystemUpdateDate: true
+            name: SYSTEM_UPDATE_DATE
+            nullable: true
+            sourceColumnReferences:
+              - columnReferences: []
+                transform: CAST(CURRENT_TIMESTAMP AS TIMESTAMP)
+        cteString: ""
+        enabledColumnTestIDs: []
+        sourceMapping:
+          - customSQL:
+              customSQL: ""
+            dependencies:
+              - locationName: TARGET
+                nodeName: STG_WORLDDATA2023
+            join:
+              joinCondition: FROM {{ ref('TARGET', 'STG_WORLDDATA2023') }} "STG_WORLDDATA2023"
+            name: DIM_WORLDDATA2023
+            noLinkRefs: []
+      name: DIM_WORLDDATA2023
+      overrideSQL: false
+      schema: ""
+      sqlType: Dimension
+      type: sql
+    stepCounter: 80b2b61d-b865-4196-bcc2-09d9a59361fe

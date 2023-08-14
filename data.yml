@@ -1,5 +1,12 @@
 defaultStorageMapping: TARGET
-jobs: {}
+jobs:
+  Job-2:
+    excludeSelector: ""
+    id: 2
+    includeSelector: ""
+    name: New Job
+    steps: []
+    subgraphs: []
 locations:
   DEFAULT:
     mappingDefinitions:
