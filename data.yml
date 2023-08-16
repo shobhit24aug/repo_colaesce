@@ -16,6 +16,9 @@ locations:
       "3":
         database: ""
         schema: ""
+      "9":
+        database: SNOWFLAKE_SAMPLE_DATA
+        schema: INFORMATION_SCHEMA
   TARGET:
     mappingDefinitions:
       "2":
@@ -24,6 +27,9 @@ locations:
       "3":
         database: ""
         schema: ""
+      "9":
+        database: DBT_CORE_ANALYTICS
+        schema: DBT_CORE_SCHEMA
 macros:
   Macro-1:
     id: "1"
