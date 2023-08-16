@@ -61,7 +61,7 @@ steps:
           - columnReference:
               columnCounter: 8841ffb9-8581-4625-bb41-bfbb7e929d13
               stepCounter: 9c31785d-e1b6-4d57-9748-328a2c1b6f66
-            dataType: NUMBER(38,0)
+            dataType: VARCHAR(100)
             description: ""
             hashColumns: []
             hashDetails: null
@@ -71,7 +71,7 @@ steps:
               - columnReferences:
                   - columnCounter: 10c1f8d3-c723-4f78-a6ba-c653334735d7
                     stepCounter: 990a71c2-3ca4-4fa7-8d93-b95311265ef4
-                transform: ""
+                transform: "{{even_odd('\"CUSTOMER\".\"C_NATIONKEY\"')}}"
           - columnReference:
               columnCounter: f88d5e4b-9497-4c94-b748-a66d3d41de32
               stepCounter: 9c31785d-e1b6-4d57-9748-328a2c1b6f66

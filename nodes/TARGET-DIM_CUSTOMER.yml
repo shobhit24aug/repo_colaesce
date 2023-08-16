@@ -78,7 +78,7 @@ steps:
           - columnReference:
               columnCounter: 2b84e09f-5ad9-473e-afd0-7c4fc5d08938
               stepCounter: 24bd7b7b-faf8-4c06-95f6-33699edcc012
-            dataType: NUMBER(38,0)
+            dataType: VARCHAR(100)
             description: ""
             hashColumns: []
             hashDetails: null
